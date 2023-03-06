@@ -1,0 +1,32 @@
+= Versions
+:stylesheet: ../shared/adoc-styles.css
+:toc:
+:toclevels: 5
+
+{empty} +
+
+https://en.wikipedia.org/wiki/Jakarta_EE
+
+{empty} +
+
+
+
+
+
+
+
+=== history
+
+image::img/history-versions.png[]
+
+
+
+=== web
+
+image::img/web-versions.png[]
+
+
+=== mssql
+
+
+image::img/mssql-versions.png[]
