@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+  wf-demo:
+    image: about-jakarta
+    ports:
+      - '9000:8080'
+      - '9040:8787'
+      - '9140:9990'

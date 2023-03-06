@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WS Form Auth - Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+</head>
+<body>
+<div id="wrapper">
+    <section class="section">
+        <div class="columns is-mobile is-centered">
+            <div class="column is-two-thirds">
+                <h1 class="title">Web Sockets Form Auth</h1>
+                <h2 class="subtitle">login.html</h2>
+                <p class="content">
+                    Use "codepen" for the user and "SQBtmW4g" for the password.  (No double quotes)
+                </p>
+                <div class="columns is-mobile">
+                    <div class="column is-half">
+                        <div class="card">
+                            <div class="card-content">
+                                <form action="j_security_check" method="POST">
+                                    <div class="field">
+                                        <label class="label">Username</label>
+                                        <div class="control">
+                                            <input class="input" type="text" name="j_username"/>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Password</label>
+                                        <div class="control">
+                                            <input class="input" type="secret" name="j_password"/>
+                                        </div>
+                                    </div>
+                                    <div class="buttons">
+                                        <input class="button is-success" type="submit" value="Login"/>
+                                        <a href="index.html" class="button">Home</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
