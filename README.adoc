@@ -1,7 +1,88 @@
-= about-jakarta
+= Jakarta (Java EE)
 :stylesheet: ../shared/adoc-styles.css
 :toc:
 :toclevels: 5
 
+=== Overview
+
+* This module gives an overview of Jakarta.
+* Smaller topics will be included here.
+* Larger topics will be extracted into their own modules.
+* For some of the acronyms see https://github.com/IO42630/about-java/blob/master/about/Glossary.adoc[Glossary.adoc].
+
+=== Jakarta
+
+Jakarta is a collection of specifications for developing and deploying enterprise applications.
+
+=== Spring
+
+Spring does not 'implement' Java EE.
+It integrates selected specifications (annotated with 🌱).
+
+=== Web
+
+[cols="1,2,2"]
+|===
+| `Servlet` | 🌱, +
+`com.olexyn.about.java.jetty` | Tomcat, Jetty
+| `Websocket` | 🌱 |
+| `JSF` | Server Faces |
+| `JEL` | Expression Language used by `JSF`. |
+|===
+
+=== Web Service
+
+[cols="1,2,2"]
+|===
+| RESTful Web Services | |
+| JSON Processing | Manage JSON. Possible alternative: GSON. |
+| JSON Binding | 🌱 |
+| `JAXB` | XML Binding +
+uses `XSD` to describe Java classes. +
+see `webservice` module + |
+| `JAX-WS` | XML Web Services +
+uses `WSDL` to describe `SOAP` web services. +
+uses `WADL` to describe `RESTful` web services. |
+|===
+
+=== Enterprise
+
+[cols="2,2,2"]
+|===
+| JAF (Activation) | |
+| CDI (Contexts and Dependency Injection) | |
+| EJB (Enterprise Beans) | |
+| Bean Validation | 🌱 |
+| JPA (Persistence) | 🌱, `com.olexyn.about.java.persistence` uses JDBC| Hibernate, Spring JPA
+| JTA (Transactions) | (🌱?) |
+| JMS (Messaging) | 🌱, `com.olexyn.about.java.amq` |
+| Concurrency Utilities | 🌱 |
+|===
+
+=== Other
+
+[cols="2,4"]
+|===
+| Dependency Injection | 🌱
+| Common Annotations | 🌱
+| Validation |
+| Batch |
+| Connectors |
+| Mail |
+|===
+
+=== Non Java EE
+
+[cols="2,4"]
+|===
+| JDBC |
+| JNDI |
+| RMI | Remote Method Invocation
+| IDL | Interface Definition Language
+|===
 
 
+
+https://stackoverflow.com/questions/29245083/in-simplest-terms-can-anyone-explain-to-me-the-difference-between-jaas-jacc-an
+https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/_elytron/Elytron_and_Java_Authentication_SPI_for_Containers-JASPI.adoc
+https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/
