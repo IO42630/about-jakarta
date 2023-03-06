@@ -1,0 +1,30 @@
+= Security Realm
+:stylesheet: ../../styles.css
+
+In general terms a `Security Realm` is a combination of:
+
+* Resources
+* Users, Groups
+* Policies
+* Security Providers (whatever that is)
+
+{empty} +
+
+[source,xml]
+<security-realm name="ManagementRealm">
+   <plug-ins></plug-ins>
+   <server-identities></server-identities>
+   <authentication></authentication>
+   <authorization></authorization>
+</security-realm>
+
+
+
+=== Definitions
+
+*
+
+
+=== References
+* https://docs.jboss.org/author/display/AS72/Security%20Realms.html
+* https://stackoverflow.com/questions/31036090/difference-between-security-realm-and-security-domain-in-wildfly[Security Realm vs. Domain]

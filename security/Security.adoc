@@ -1,0 +1,31 @@
+= Security
+:stylesheet: ../../styles.css
+:toc:
+:toclevels: 5
+
+== Elytron
+
+
+
+
+== Basic Auth
+* credentials in HTTP header
+* header is encrypted with TLS
+
+
+== Legacy vs Elytron
+
+https://stackoverflow.com/questions/31036090/difference-between-security-realm-and-security-domain-in-wildfly
+
+== JAAS
+
+* included/used with Java SE
+
+== JASPI
+
+* extension point for Java EE 6+
+
+{empty} +
+
+=== References
+* https://docs.wildfly.org/26/WildFly_Elytron_Security.html#jaas-security-realm[🦋 Elytron Guide]

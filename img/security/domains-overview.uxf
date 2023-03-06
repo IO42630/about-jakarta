@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1470</x>
+      <y>560</y>
+      <w>518</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Elytron</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>854</x>
+      <y>560</y>
+      <w>266</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Application Code</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1162</x>
+      <y>560</y>
+      <w>266</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Undertow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1764</x>
+      <y>616</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SecurityRealm
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1498</x>
+      <y>616</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SecurityDomain
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1680</x>
+      <y>616</y>
+      <w>112</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>616</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SecurityDomain
+bg=#00FF00
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>616</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>WAR
+bg=#FF0000
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1372</x>
+      <y>616</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>616</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>812</x>
+      <y>532</y>
+      <w>1204</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>bg=#FFFFFF
+transparency=0
+fg=#FFFFFF
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

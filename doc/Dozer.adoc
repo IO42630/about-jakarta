@@ -1,0 +1,6 @@
+
+==== Dozer
+
+* Java Bean to Java Bean mapper
+* recursively copies data from one object to another
+* currently, mapping to Kotlin requires some `TODO` config

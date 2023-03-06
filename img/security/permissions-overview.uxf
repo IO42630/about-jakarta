@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>546</y>
+      <w>1120</w>
+      <h>406</h>
+    </coordinates>
+    <panel_attributes>bg=#FFFFFF
+transparency=0
+fg=#FFFFFF
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>644</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Permission
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>994</x>
+      <y>644</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>PermissionSet
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>644</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>PermissionMapper
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1582</x>
+      <y>644</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SecurityRealm
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1582</x>
+      <y>826</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SecurityDomain
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>644</y>
+      <w>112</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>644</y>
+      <w>112</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>700</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>RoleMapper
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>756</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>RealmMapper
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1232</x>
+      <y>574</y>
+      <w>252</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>Mappers</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1470</x>
+      <y>644</y>
+      <w>140</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;.&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;70.0;80.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1232</x>
+      <y>826</y>
+      <w>252</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>Decoders</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>868</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>RoleDecoder
+bg=#0000FF
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
