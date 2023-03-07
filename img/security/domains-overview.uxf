@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1470</x>
-      <y>560</y>
+      <x>1414</x>
+      <y>714</y>
       <w>518</w>
       <h>126</h>
     </coordinates>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>854</x>
-      <y>560</y>
-      <w>266</w>
-      <h>126</h>
+      <x>574</x>
+      <y>714</y>
+      <w>490</w>
+      <h>322</h>
     </coordinates>
     <panel_attributes>Application Code</panel_attributes>
     <additional_attributes/>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1162</x>
-      <y>560</y>
+      <x>1106</x>
+      <y>714</y>
       <w>266</w>
       <h>126</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1764</x>
-      <y>616</y>
+      <x>1708</x>
+      <y>770</y>
       <w>196</w>
       <h>42</h>
     </coordinates>
@@ -50,8 +50,8 @@ transparency=80</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1498</x>
-      <y>616</y>
+      <x>1442</x>
+      <y>770</y>
       <w>196</w>
       <h>42</h>
     </coordinates>
@@ -63,8 +63,8 @@ transparency=80</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
-      <y>616</y>
+      <x>1624</x>
+      <y>770</y>
       <w>112</w>
       <h>42</h>
     </coordinates>
@@ -74,8 +74,8 @@ transparency=80</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1190</x>
-      <y>616</y>
+      <x>1134</x>
+      <y>770</y>
       <w>196</w>
       <h>42</h>
     </coordinates>
@@ -87,8 +87,8 @@ transparency=80</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>882</x>
-      <y>616</y>
+      <x>826</x>
+      <y>770</y>
       <w>196</w>
       <h>42</h>
     </coordinates>
@@ -100,8 +100,8 @@ transparency=80</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1372</x>
-      <y>616</y>
+      <x>1316</x>
+      <y>770</y>
       <w>154</w>
       <h>42</h>
     </coordinates>
@@ -111,8 +111,8 @@ transparency=80</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1064</x>
-      <y>616</y>
+      <x>1008</x>
+      <y>770</y>
       <w>154</w>
       <h>42</h>
     </coordinates>
@@ -122,15 +122,163 @@ transparency=80</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>812</x>
-      <y>532</y>
-      <w>1204</w>
-      <h>182</h>
+      <x>546</x>
+      <y>686</y>
+      <w>1428</w>
+      <h>378</h>
     </coordinates>
     <panel_attributes>bg=#FFFFFF
 transparency=0
 fg=#FFFFFF
 layer=-1</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>798</y>
+      <w>224</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>602</x>
+      <y>868</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>web.xml
+bg=#FF0000
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>826</x>
+      <y>868</y>
+      <w>196</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>jboss-web.xml
+bg=#FF0000
+transparency=80</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1204</x>
+      <y>798</y>
+      <w>70</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1246</x>
+      <y>924</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>links app code to Elytron
+lt=..
+style=wordwrap
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1484</x>
+      <y>952</y>
+      <w>196</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>permissions &amp; role instructions
+lt=..
+style=wordwrap
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1484</x>
+      <y>798</y>
+      <w>70</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>798</y>
+      <w>56</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>854</x>
+      <y>952</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Roles, auth METHOD
+lt=..
+style=wordwrap
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>952</y>
+      <w>196</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Security Domain reference
+lt=..
+style=wordwrap
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>896</y>
+      <w>42</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>658</x>
+      <y>896</y>
+      <w>42</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
 </diagram>
