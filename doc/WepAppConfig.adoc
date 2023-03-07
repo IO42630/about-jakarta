@@ -1,0 +1,12 @@
+= Web Config
+:stylesheet: ../../../shared/adoc-styles.css
+:toc:
+:toclevels: 5
+
+* `WEB-INF`
+** `beans.xml`
+*** required for CDI to become active
+** `jboss-web.xml`
+*** `<security-domain>`
+** `web.xml`
+*** `<filter>`
