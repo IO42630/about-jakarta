@@ -7,7 +7,7 @@
 	<artifactId>about-jakarta</artifactId>
 	<version>0.1</version>
 	<packaging>pom</packaging>
-	<name>about-java</name>
+	<name>about-jakarta</name>
 	<url>https://www.olexyn.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
