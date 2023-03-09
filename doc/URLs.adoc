@@ -1,0 +1,16 @@
+= WildFly URLs
+:stylesheet: ../../shared/adoc-styles.css
+:toc:
+:toclevels: 5
+
+=== Root
+* root is usually `localhost:8080`
+* each deployed `war` has its name (including version) as URL
+** e.g. `localhost:8080/foo-bar-0.1`
+** this can be overridden using `jboss.web.xml/<context-root>`
+
+{empty} +
+
+=== Servlets
+* relative path can be given via annotation
+** or in `web.xml`
