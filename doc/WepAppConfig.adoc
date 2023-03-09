@@ -1,12 +1,29 @@
 = Web Config
-:stylesheet: ../../../shared/adoc-styles.css
+:stylesheet: ../../shared/adoc-styles.css
 :toc:
 :toclevels: 5
 
-* `WEB-INF`
-** `beans.xml`
-*** required for CDI to become active
-** `jboss-web.xml`
-*** `<security-domain>`
-** `web.xml`
-*** `<filter>`
+=== `META-INF`
+
+* 🤔 for "backend"?
+
+{empty} +
+
+=== `WEB-INF`
+
+==== `beans.xml`
+
+* required for CDI to become active
+
+==== `jboss-web.xml`
+
+* `<context-root>` : relative path to server root (localhost:9000/)
+* `<security-domain>`
+
+{empty} +
+
+==== `web.xml`
+
+* `<filter>`
+* `<web-resource-collection>`
+** `<url-pattern>`
