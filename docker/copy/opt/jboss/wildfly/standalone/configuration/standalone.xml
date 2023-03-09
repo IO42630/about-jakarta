@@ -133,7 +133,7 @@
 							pool-name="ExampleDS"
 							enabled="true"
 							use-java-context="true"
-							statistics-enabled="${wildfly.datasources.statistics-enabled:${wildfly.statistics-enabled:false}}">
+							statistics-enabled="true">
 					<connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
 					<driver>h2</driver>
 					<security>
@@ -253,7 +253,7 @@
 				<application-security-domain name="JWTAppSecurityDomain" security-domain="JWTAppSecurityDomain"/>
 			</application-security-domains>
 			<default-missing-method-permissions-deny-access value="true"/>
-			<statistics enabled="${wildfly.ejb3.statistics-enabled:${wildfly.statistics-enabled:false}}"/>
+			<statistics/>
 			<log-system-exceptions value="true"/>
 		</subsystem>
 		<subsystem xmlns="urn:wildfly:elytron:15.1"
@@ -536,7 +536,7 @@
 				</process-id>
 			</core-environment>
 			<recovery-environment socket-binding="txn-recovery-environment" status-socket-binding="txn-status-manager"/>
-			<coordinator-environment statistics-enabled="${wildfly.transactions.statistics-enabled:${wildfly.statistics-enabled:false}}"/>
+			<coordinator-environment statistics-enabled="true"/>
 			<object-store path="tx-object-store" relative-to="jboss.server.data.dir"/>
 		</subsystem>
 		<subsystem xmlns="urn:jboss:domain:undertow:12.0"
@@ -544,7 +544,7 @@
 				   default-virtual-host="default-host"
 				   default-servlet-container="default"
 				   default-security-domain="other"
-				   statistics-enabled="${wildfly.undertow.statistics-enabled:${wildfly.statistics-enabled:false}}">
+				   statistics-enabled="true">
 			<buffer-cache name="default"/>
 			<server name="default-server">
 				<http-listener name="default" socket-binding="http" redirect-socket="https" enable-http2="true"/>
@@ -567,7 +567,7 @@
 			</application-security-domains>
 		</subsystem>
 		<subsystem xmlns="urn:jboss:domain:webservices:2.0"
-				   statistics-enabled="${wildfly.webservices.statistics-enabled:${wildfly.statistics-enabled:false}}">
+				   statistics-enabled="true">
 			<wsdl-host>${jboss.bind.address:127.0.0.1}</wsdl-host>
 			<endpoint-config name="Standard-Endpoint-Config"/>
 			<endpoint-config name="Recording-Endpoint-Config">
