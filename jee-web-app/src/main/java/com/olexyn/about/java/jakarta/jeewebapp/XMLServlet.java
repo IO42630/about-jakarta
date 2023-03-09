@@ -1,9 +1,5 @@
 package com.olexyn.about.java.jakarta.jeewebapp;
 
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Serial;
@@ -13,18 +9,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "HelloServlet", value = "/hello")
-public class HelloServlet extends HttpServlet {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-	private static final Logger LOG = LoggerFactory.getLogger(HelloServlet.class);
+public class XMLServlet extends HttpServlet {
+
+	private static final Logger LOG = LoggerFactory.getLogger(XMLServlet.class);
 	@Serial
-	private static final long serialVersionUID = 491185577509991149L;
+	private static final long serialVersionUID = 6669666201195825812L;
 
 	private String message;
 
 	public void init() {
 		LOG.error("init");
-		message = "Hello World!";
+		message = "Hello World! XML";
 	}
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
