@@ -3,8 +3,13 @@ version: '3.3'
 services:
 
   wf-demo:
-    image: about-jakarta
+    container_name: about-jakarta
+    image: about-jakarta:latest
     ports:
       - '9000:8080'
       - '9040:8787'
       - '9140:9990'
+
+
+networks:
+  about-jakarta:
