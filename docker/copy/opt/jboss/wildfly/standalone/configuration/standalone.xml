@@ -253,7 +253,7 @@
 				<application-security-domain name="JWTAppSecurityDomain" security-domain="JWTAppSecurityDomain"/>
 			</application-security-domains>
 			<default-missing-method-permissions-deny-access value="true"/>
-			<statistics/>
+			<statistics enabled="true"/>
 			<log-system-exceptions value="true"/>
 		</subsystem>
 		<subsystem xmlns="urn:wildfly:elytron:15.1"
