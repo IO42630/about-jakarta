@@ -1,0 +1,15 @@
+= 1Z0-900
+=== Topics
+
+* Understand Java EE Architecture
+** https://www.amazon.com/Java-EE-7-Big-Picture/dp/0071837345/?tag=crfa12-20
+* Manage Persistence using JPA entities and Bean Validation
+* Implement business logic using EJBs
+* Use Java Message Service API
+* Implement SOAP Services using JAX-WS and JAXB APIs
+* Create Java Web Applications using Servlets and JSPs
+* Implement REST Services using JAX-RS API
+* Create Java Applications using WebSockets
+* Develop Web Applications using JSFs
+* Secure Java EE 7 Applications
+* Use CDI Beans, concurrency API, and Batch API
