@@ -14,7 +14,7 @@ COPY docker/copy$CONFIG_DIR/standalone.xml $CONFIG_DIR/standalone.xml
 
 # COPY DEPLOYMENTS
 COPY jee-web-app/target/jee-web-app-0.1.war /opt/jboss/wildfly/standalone/deployments/
-#COPY security/security-ctx/target/security-ctx-0.1.war /opt/jboss/wildfly/standalone/deployments/
-#COPY security/ws-basic/target/ws-basic-0.1.war /opt/jboss/wildfly/standalone/deployments/
+COPY security/security-ctx/target/security-ctx-0.1.war /opt/jboss/wildfly/standalone/deployments/
+COPY security/ws-basic/target/ws-basic-0.1.war /opt/jboss/wildfly/standalone/deployments/
 
 EXPOSE 8080 8787 9990
