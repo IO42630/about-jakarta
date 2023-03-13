@@ -23,7 +23,6 @@ public class HelloServlet extends HttpServlet {
 	private String message;
 
 	public void init() {
-		LOG.error("init");
 		message = "Hello World!";
 	}
 
